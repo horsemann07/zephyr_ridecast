@@ -1,0 +1,30 @@
+
+{
+    "configurations": [
+        {
+            "name": "RideCast - STM32H7B3 (Zephyr 4.5)",
+            "compilerPath": "C:/Users/ragha/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "intelliSenseMode": "windows-gcc-arm",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/app/include",
+                "${workspaceFolder}/cc335x_port/include",
+                "${workspaceFolder}/bringup/**",
+                "${workspaceFolder}/build/zephyr/include/generated",
+                "${workspaceFolder}/zephyr_workspace/zephyr/include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/app",
+                    "${workspaceFolder}/bringup",
+                    "${workspaceFolder}/cc335x_port",
+                    "${workspaceFolder}/zephyr_workspace/zephyr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

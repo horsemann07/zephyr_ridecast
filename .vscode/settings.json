@@ -1,0 +1,28 @@
+
+{
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.enhancedColorization": "enabled",
+    "C_Cpp.autocomplete": "default",
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.semanticHighlighting.enabled": true,
+    "files.exclude": {
+        "**/.git": true,
+        "build": true,
+        "zephyr_workspace/.west": true,
+        "zephyr_workspace/.venv": true,
+        "zephyr_workspace/sdk": true
+    },
+    "search.exclude": {
+        "build": true,
+        "zephyr_workspace/.venv": true,
+        "zephyr_workspace/sdk": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/zephyr_workspace/.venv/**": true,
+        "**/zephyr_workspace/sdk/**": true
+    }
+}
